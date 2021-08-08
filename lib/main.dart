@@ -12,8 +12,9 @@ class MyApplication extends StatelessWidget {
         title: const Text('Login'),
         backgroundColor: Colors.deepOrangeAccent,
       ),
-      body: const Center(
-        child: Text(
+      body: Center(
+        child: Image.asset('assets/images/Space.jpg'),
+        /*Text(
             "Hello Dhinesh, Welcome !!",
             style: TextStyle(
                 color: Colors.grey,
@@ -21,7 +22,7 @@ class MyApplication extends StatelessWidget {
                 fontSize: 40.0,
                 fontFamily: 'StyleScript'
             )
-        ),
+        ),*/
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: (){},
