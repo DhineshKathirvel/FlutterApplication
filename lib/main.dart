@@ -13,7 +13,15 @@ class MyApplication extends StatelessWidget {
         backgroundColor: Colors.deepOrangeAccent,
       ),
       body: Center(
-        child: Image.asset('assets/images/Space.jpg'),
+        child: ElevatedButton.icon(
+            onPressed: (){
+              print("On Click Invoked");
+            },
+            icon: const Icon(
+            Icons.email),
+            label: const Text(
+                "Mail Me")),
+        //Image.asset('assets/images/Space.jpg'),
         /*Text(
             "Hello Dhinesh, Welcome !!",
             style: TextStyle(
